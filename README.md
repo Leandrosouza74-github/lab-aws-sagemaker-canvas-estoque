@@ -1,7 +1,7 @@
 
 # 📊 Previsão de Estoque Inteligente na AWS com [SageMaker Canvas](https://aws.amazon.com/pt/sagemaker/canvas/)
 
-https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/blob/main/339880256-72f5c21f-5562-491e-aa42-2885a3184650.png?raw=true
+![image] (https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/blob/main/339880256-72f5c21f-5562-491e-aa42-2885a3184650.png?raw=true)
 ## 🎯 Objetivos Deste Desafio de Projeto (Lab)
 
 ![image](https://github.com/digitalinnovationone/lab-aws-sagemaker-canvas-estoque/assets/730492/72f5c21f-5562-491e-aa42-2885a3184650)
