@@ -21,6 +21,7 @@
 
 -   Configuração das variáveis de entrada e saída de acordo com os dados.
   ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/blob/main/paint/PDPQ%20treinamento.png?raw=true)
+![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/blob/main/paint/PDPQ%20treinamento2.png?raw=true)
 -   Inicie o treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset.
 
 ### 3. Analisar
