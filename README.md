@@ -87,16 +87,72 @@ Depois de calcular o APE para cada observação, calcule a média desses valores
 
 É uma variação do MAPE que pondera os erros percentuais absolutos pela importância de cada observação. É útil quando há diferentes magnitudes de valores reais e é importante dar mais peso a determinadas observações.
 
+##### Para calcular o WAPE (Weighted Absolute Percentage Error), siga estes passos:
+
+1- Calcular o Erro Percentual Absoluto (APE) para cada observação:
+
+Para cada par de observações (valor previsto e valor real), calcule o erro percentual absoluto (APE):
+
+![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/d49cc209-d692-41e0-9e2f-88a35f8fed0b)
+
+2- Atribuir Pesos às Observações:
+
+Atribua pesos às observações com base na importância relativa de cada uma. Isso pode ser determinado por critérios específicos do problema ou pela magnitude dos valores reais.
+
+3- Calcular o Erro Ponderado (WAPE):
+
+Multiplique o APE de cada observação pelo peso correspondente e calcule a média ponderada dos erros percentuais absolutos:
+
+![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/0869fa86-122b-4aef-807f-f0cceb0764f9)
+
 
 #### RMSE (Root Mean Squared Error):
 
 É a raiz quadrada da média dos quadrados dos erros entre valores previstos e reais. É uma medida de dispersão dos erros e fornece uma ideia de quão bem o modelo está ajustando os dados.
 
+##### Para calcular o RMSE (Root Mean Squared Error), siga estes passos:
+
+1- Calcular o Erro Quadrático para cada observação:
+
+Para cada par de observações (valor previsto e valor real), calcule o erro quadrático:
+
+![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/ea3def81-7cf6-494d-8055-aa0727a7de29)
+
+2- Calcular a Média do Erro Quadrático (MSE):
+
+Depois de calcular o erro quadrático para cada observação, calcule a média desses valores para obter o MSE:
+
+![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/36993ee5-7223-41eb-837e-d087993cb1fb)
+
+3- Calcular o RMSE:
+
+Finalmente, calcule a raiz quadrada do MSE para obter o RMSE:
+
+![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/9042aa63-e9fa-45ec-bd32-379ead44899b)
+
 #### MASE (Mean Absolute Scaled Error):
 
 É uma medida de erro escalada, que compara o erro médio absoluto do modelo com o erro médio absoluto de um modelo de referência na mesma série temporal. É útil para avaliar a precisão de modelos em séries temporais.
 
+##### Para calcular o MASE (Mean Absolute Scaled Error), siga estes passos:
 
+Calcular o Erro Absoluto Médio (MAE) para o modelo em questão:
+
+![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/2f989642-77cc-4330-a9ca-377ab2631a35)
+
+2- Calcular o Erro Absoluto Médio para o modelo de referência:
+
+Em seguida, calcule o erro absoluto médio para um modelo de referência simples. Isso pode ser um modelo ingênuo que usa a média histórica dos dados como previsão:
+
+![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/4ee2e72d-608d-42ba-ba5d-30ca85e72a03)
+
+3- Calcular o MASE:
+
+Finalmente, calcule o MASE como a razão entre o MAE do modelo e o MAE do modelo de referência:
+
+![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/ab00fc87-a724-4ead-9ed5-198b3dbbcd7f)
+
+-------------------------------------------------------------------------------------------------------------------------------------
 -   Verifique as principais características que influenciam as previsões.
 -   Faça ajustes no modelo se necessário e re-treine até obter um desempenho satisfatório.
 
