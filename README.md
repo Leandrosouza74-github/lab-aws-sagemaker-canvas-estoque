@@ -13,18 +13,23 @@
 -   Escolhido o datasets na pasta `datasets` deste repositório.
           Dataset--> [Produto,Data,Preço e Quantidade (PDPQ)](datasets/dataset-1000-com-preco-variavel-e-renovacao-estoque.csv)
 -   Upload do dataset foi feito com sucesso no SageMaker Canvas.
-             ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/blob/main/paint/PDPQ.png?raw=true)
+
+    ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/blob/main/paint/PDPQ.png?raw=true)
+    
 -   Visualização das 10 primeiras linhas do arquivo.
-     ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/blob/main/paint/PDPQ%2010primeiras%20linhas.png?raw=true)
+
+![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/blob/main/paint/PDPQ%2010primeiras%20linhas.png?raw=true)
 
 ### 2. Construir/Treinar
 
 -   Configuração das variáveis de entrada e saída de acordo com os dados.
-  ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/blob/main/paint/PDPQ%20treinamento.png?raw=true)
+
+![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/blob/main/paint/PDPQ%20treinamento.png?raw=true)
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/blob/main/paint/PDPQ%20treinamento2.png?raw=true)
 
 -   Início do treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset.
-  ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/blob/main/paint/PDPQ%20treinamento3.png?raw=true)
+
+![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/blob/main/paint/PDPQ%20treinamento3.png?raw=true)
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/blob/main/paint/PDPQ%20analise.png?raw=true)
 
 ### 3. Analisar
