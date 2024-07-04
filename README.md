@@ -11,7 +11,7 @@
 ### 1. Selecionar Dataset
 
 -   Escolhido o datasets na pasta `datasets` deste repositório.
-           [link](datasets/dataset-1000-com-preco-variavel-e-renovacao-estoque.csv)
+           [Produto,Quantidade e Preço](datasets/dataset-1000-com-preco-variavel-e-renovacao-estoque.csv)
 -   Upload do dataset foi feito com sucesso no SageMaker Canvas.
 
 ### 2. Construir/Treinar
