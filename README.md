@@ -42,9 +42,9 @@
 
 ### 3. Analisar
 
--   Após o treinamento, as seguintes métricas de performance do modelo foram:
+-   Após o treinamento, as métricas de performance do modelo foram as seguintes:
 
-
+![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/f80a66f8-d4ca-47c0-8aa2-19713f9ea13e)
 
 
 #### Avg. wQL (Average Weighted Quantile Loss):
