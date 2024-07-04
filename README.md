@@ -15,7 +15,7 @@
 -   Upload do dataset foi feito com sucesso no SageMaker Canvas.
              ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/blob/main/paint/PDPQ.png?raw=true)
 -   Visualização das 10 primeiras linhas do arquivo.
-      ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/blob/main/paint/PDPQ%2010%20primeiras%20linhas.png?raw=true)
+     
 
 ### 2. Construir/Treinar
 
