@@ -43,7 +43,28 @@
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/blob/main/paint/PDPQ%20m%C3%A9tricas.png?raw=true)
 
+#### Avg. wQL (Average Weighted Quantile Loss):
 
+Esta métrica avalia a precisão das previsões em diferentes quantis da distribuição dos dados. É uma medida de erro que leva em consideração a distribuição dos erros em várias partes dos dados.
+
+
+#### MAPE (Mean Absolute Percentage Error):
+
+É a média do erro percentual absoluto, calculado como a média das diferenças absolutas entre os valores previstos e os valores reais, dividido pelos valores reais. É expresso como uma porcentagem.
+
+
+#### WAPE (Weighted Absolute Percentage Error):
+
+É uma variação do MAPE que pondera os erros percentuais absolutos pela importância de cada observação. É útil quando há diferentes magnitudes de valores reais e é importante dar mais peso a determinadas observações.
+
+
+#### RMSE (Root Mean Squared Error):
+
+Como discutido anteriormente, é a raiz quadrada da média dos quadrados dos erros entre valores previstos e reais. É uma medida de dispersão dos erros e fornece uma ideia de quão bem o modelo está ajustando os dados.
+
+#### MASE (Mean Absolute Scaled Error):
+
+É uma medida de erro escalada, que compara o erro médio absoluto do modelo com o erro médio absoluto de um modelo de referência na mesma série temporal. É útil para avaliar a precisão de modelos em séries temporais.
 -   Verifique as principais características que influenciam as previsões.
 -   Faça ajustes no modelo se necessário e re-treine até obter um desempenho satisfatório.
 
