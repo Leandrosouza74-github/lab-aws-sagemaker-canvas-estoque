@@ -51,7 +51,7 @@ Um quantil é um valor que divide uma distribuição de dados em partes iguais o
 
 ##### Como calcular o Avg.wQL?
 
-                         Para calcular o Average Weighted Quantile Loss (Avg. wQL), você precisa seguir estes passos:
+                         * Para calcular o Average Weighted Quantile Loss (Avg. wQL), você precisa seguir estes passos:
 
 _ Definir os Quantis: Escolher os quantis da distribuição dos dados que deseja avaliar.
 
