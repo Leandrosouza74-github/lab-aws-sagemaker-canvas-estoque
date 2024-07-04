@@ -46,6 +46,13 @@
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/f80a66f8-d4ca-47c0-8aa2-19713f9ea13e)
 
+#### Interpretação das Métricas
+Quanto menor o valor do Avg. wQL, MAPE, WAPE, RMSE e MASE, melhor é o desempenho do modelo, pois indicam menores erros em relação aos dados reais.
+Cada métrica oferece uma perspectiva diferente sobre a precisão do modelo, sendo importante considerar várias métricas para obter uma visão abrangente do desempenho.
+
+#### Utilização no SageMaker Canvas
+No SageMaker Canvas, essas métricas são normalmente calculadas automaticamente após o treinamento do modelo. Você pode visualizar essas métricas na interface do Canvas, o que ajuda a entender como o modelo está performando e facilita a comparação entre diferentes configurações de modelos.
+
 
 #### Avg. wQL (Average Weighted Quantile Loss):
 
@@ -155,13 +162,6 @@ Em seguida, calcule o erro absoluto médio para um modelo de referência simples
 Finalmente, calcule o MASE como a razão entre o MAE do modelo e o MAE do modelo de referência:
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/ab00fc87-a724-4ead-9ed5-198b3dbbcd7f)
-
-##### Interpretação das Métricas
-Quanto menor o valor do Avg. wQL, MAPE, WAPE, RMSE e MASE, melhor é o desempenho do modelo, pois indicam menores erros em relação aos dados reais.
-Cada métrica oferece uma perspectiva diferente sobre a precisão do modelo, sendo importante considerar várias métricas para obter uma visão abrangente do desempenho.
-
-##### Utilização no SageMaker Canvas
-No SageMaker Canvas, essas métricas são normalmente calculadas automaticamente após o treinamento do modelo. Você pode visualizar essas métricas na interface do Canvas, o que ajuda a entender como o modelo está performando e facilita a comparação entre diferentes configurações de modelos.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 ####   A principal características que influenciou a previsão do Preço foi a quantidade do estoque:
