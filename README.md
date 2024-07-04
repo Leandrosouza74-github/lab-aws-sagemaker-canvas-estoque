@@ -136,7 +136,7 @@ Finalmente, calcule a raiz quadrada do MSE para obter o RMSE:
 
 ##### Para calcular o MASE (Mean Absolute Scaled Error), siga estes passos:
 
-Calcular o Erro Absoluto Médio (MAE) para o modelo em questão:
+1- Calcular o Erro Absoluto Médio (MAE) para o modelo em questão:
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/2f989642-77cc-4330-a9ca-377ab2631a35)
 
