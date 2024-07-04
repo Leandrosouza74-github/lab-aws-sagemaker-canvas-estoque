@@ -13,6 +13,7 @@
 -   Escolhido o datasets na pasta `datasets` deste repositório.
           Dataset--> [Produto,Data,Preço e Quantidade (PDPQ)](datasets/dataset-1000-com-preco-variavel-e-renovacao-estoque.csv)
 -   Upload do dataset foi feito com sucesso no SageMaker Canvas.
+                  VEJA A IMAGEM SEGUINTE:
              ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/blob/main/paint/PDPQ.png?raw=true)
 
 ### 2. Construir/Treinar
