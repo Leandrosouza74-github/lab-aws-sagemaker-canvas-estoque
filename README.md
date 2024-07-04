@@ -47,6 +47,8 @@
 
 Esta métrica avalia a precisão das previsões em diferentes quantis da distribuição dos dados. É uma medida de erro que leva em consideração a distribuição dos erros em várias partes dos dados.
 
+Um quantil é um valor que divide uma distribuição de dados em partes iguais ou em partes com proporções específicas, como medianas, quartis e percentis.
+
 
 #### MAPE (Mean Absolute Percentage Error):
 
