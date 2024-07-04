@@ -17,8 +17,8 @@
 
 -   Escolhido o datasets na pasta `datasets` deste repositório.
 ##### ****************************************************************************************************************************************************
-  
-          Dataset--> [Produto,Data,Preço e Quantidade (PDPQ)](datasets/dataset-1000-com-preco-variavel-e-renovacao-estoque.csv)
+
+Dataset--> [Produto,Data,Preço e Quantidade (PDPQ)](datasets/dataset-1000-com-preco-variavel-e-renovacao-estoque.csv)
 
 ##### ****************************************************************************************************************************************************
 
