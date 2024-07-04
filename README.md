@@ -152,16 +152,19 @@ Finalmente, calcule o MASE como a razão entre o MAE do modelo e o MAE do modelo
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/ab00fc87-a724-4ead-9ed5-198b3dbbcd7f)
 
--------------------------------------------------------------------------------------------------------------------------------------
--   Verifique as principais características que influenciam as previsões.
--   Faça ajustes no modelo se necessário e re-treine até obter um desempenho satisfatório.
-
 ##### Interpretação das Métricas
 Quanto menor o valor do Avg. wQL, MAPE, WAPE, RMSE e MASE, melhor é o desempenho do modelo, pois indicam menores erros em relação aos dados reais.
 Cada métrica oferece uma perspectiva diferente sobre a precisão do modelo, sendo importante considerar várias métricas para obter uma visão abrangente do desempenho.
 
 ##### Utilização no SageMaker Canvas
 No SageMaker Canvas, essas métricas são normalmente calculadas automaticamente após o treinamento do modelo. Você pode visualizar essas métricas na interface do Canvas, o que ajuda a entender como o modelo está performando e facilita a comparação entre diferentes configurações de modelos.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+####   A principal características que influenciou a previsão do Preço foi a quantidade do estoque:
+
+  ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/6ca9b72e-85ae-40fe-a9f5-e4c3a037a030)
+
+  --------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### 4. Prever
 
