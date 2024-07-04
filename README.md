@@ -49,6 +49,20 @@ Esta métrica avalia a precisão das previsões em diferentes quantis da distrib
 
 Um quantil é um valor que divide uma distribuição de dados em partes iguais ou em partes com proporções específicas, como medianas, quartis e percentis.
 
+##### Como calcular o Avg.wQL?
+
+Para calcular o Average Weighted Quantile Loss (Avg. wQL), você precisa seguir estes passos:
+
+Definir os Quantis: Escolher os quantis da distribuição dos dados que deseja avaliar.
+
+Ordenar os Erros: Ordenar os erros de previsão por quantil.
+
+Atribuir Pesos: Atribuir pesos aos quantis com base na importância relativa.
+
+Calcular o Erro Ponderado: Multiplicar os erros de previsão pelos pesos atribuídos.
+
+Média dos Erros Ponderados: Calcular a média dos erros ponderados para obter o Avg. wQL.
+
 
 #### MAPE (Mean Absolute Percentage Error):
 
