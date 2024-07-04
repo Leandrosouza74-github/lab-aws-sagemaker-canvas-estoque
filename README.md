@@ -70,7 +70,7 @@ Dataset--> [Produto,Data,Preço e Quantidade (PDPQ)](datasets/dataset-1000-com-p
 
 ##### ****************************************************************************************************************************************************
 
-![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/f80a66f8-d4ca-47c0-8aa2-19713f9ea13e)
+![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/f6faf5a0-4d16-414f-8afe-7cf0c6021c85)
 
 ##### ****************************************************************************************************************************************************
 
@@ -213,7 +213,7 @@ Finalmente, calcule o MASE como a razão entre o MAE do modelo e o MAE do modelo
 
 ####   A principal características que influenciou a previsão do estoque foi a do preço:
 
-  ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/d7c2f4d6-a0b8-4156-964d-130054147d20)
+ ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/d0ee6bb3-4367-47ae-a69d-7d75c2bd3029)
 
 
 ##### ****************************************************************************************************************************************************
