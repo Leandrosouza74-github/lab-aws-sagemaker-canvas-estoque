@@ -1,14 +1,14 @@
 
-# 📊 Previsão de Estoque Inteligente na AWS com [SageMaker Canvas](https://aws.amazon.com/pt/sagemaker/canvas/)
+# 👀: Previsão de Estoque Inteligente na AWS com [SageMaker Canvas](https://aws.amazon.com/pt/sagemaker/canvas/)
 
 
-## 🎯 Objetivos Deste Desafio de Projeto
+## 🥅: Objetivos Deste Desafio de Projeto
 
 ![Imagem](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/blob/main/paint/339880256-72f5c21f-5562-491e-aa42-2885a3184650.png?raw=true)
 
-## 🚀 Passo a Passo
+## 🚶: Passo a Passo
 
-### 1. Selecionar Dataset :lula:
+### 1. Selecionar Dataset 
 
 -   Escolhido o datasets na pasta `datasets` deste repositório.
           Dataset--> [Produto,Data,Preço e Quantidade (PDPQ)](datasets/dataset-1000-com-preco-variavel-e-renovacao-estoque.csv)
