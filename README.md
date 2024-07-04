@@ -26,7 +26,7 @@ Dataset--> [Produto,Data,Preço e Quantidade (PDPQ)](datasets/dataset-1000-com-p
 
 ##### ****************************************************************************************************************************************************
 
-    ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/blob/main/paint/PDPQ.png?raw=true)
+![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/blob/main/paint/PDPQ.png?raw=true)
 
 ##### ****************************************************************************************************************************************************
     
