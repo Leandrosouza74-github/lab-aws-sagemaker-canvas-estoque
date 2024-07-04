@@ -49,9 +49,8 @@ Esta métrica avalia a precisão das previsões em diferentes quantis da distrib
 
 Um quantil é um valor que divide uma distribuição de dados em partes iguais ou em partes com proporções específicas, como medianas, quartis e percentis.
 
-##### Como calcular o Avg.wQL?
 
-###### Para calcular o Average Weighted Quantile Loss (Avg. wQL), você precisa seguir estes passos:
+##### Para calcular o Average Weighted Quantile Loss (Avg. wQL), você precisa seguir estes passos:
 
 _ Definir os Quantis: Escolher os quantis da distribuição dos dados que deseja avaliar.
 
@@ -67,6 +66,21 @@ _ Média dos Erros Ponderados: Calcular a média dos erros ponderados para obter
 #### MAPE (Mean Absolute Percentage Error):
 
 É a média do erro percentual absoluto, calculado como a média das diferenças absolutas entre os valores previstos e os valores reais, dividido pelos valores reais. É expresso como uma porcentagem.
+
+##### Para calcular o MAPE (Mean Absolute Percentage Error), siga estes passos:
+
+1- Calcular o Erro Percentual Absoluto (APE) para cada observação:
+
+Para cada par de observações (valor previsto e valor real), calcule o erro percentual absoluto (APE):
+
+![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/0e550863-c5ab-4327-b4ff-1680346369da)
+
+2- Calcular a Média dos Erros Percentuais Absolutos (MAPE):
+
+Depois de calcular o APE para cada observação, calcule a média desses valores para obter o MAPE:
+
+![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/872fa25e-0341-467a-891e-a0c494bc0fe1)
+
 
 
 #### WAPE (Weighted Absolute Percentage Error):
