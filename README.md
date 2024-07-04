@@ -211,9 +211,10 @@ Finalmente, calcule o MASE como a razão entre o MAE do modelo e o MAE do modelo
 
 ##### ****************************************************************************************************************************************************
 
-####   A principal características que influenciou a previsão do Preço foi a quantidade do estoque:
+####   A principal características que influenciou a previsão do estoque foi a do preço:
 
-  ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/6ca9b72e-85ae-40fe-a9f5-e4c3a037a030)
+  ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/d7c2f4d6-a0b8-4156-964d-130054147d20)
+
 
 ##### ****************************************************************************************************************************************************
 
