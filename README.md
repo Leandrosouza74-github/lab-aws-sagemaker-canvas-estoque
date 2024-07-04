@@ -1,10 +1,13 @@
 
 # 👀: Previsão de Estoque Inteligente na AWS com [SageMaker Canvas](https://aws.amazon.com/pt/sagemaker/canvas/)
 
+##### ****************************************************************************************************************************************************
 
 ## 🥅: Objetivos Deste Desafio de Projeto
 
 ![Imagem](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/blob/main/paint/339880256-72f5c21f-5562-491e-aa42-2885a3184650.png?raw=true)
+
+##### ****************************************************************************************************************************************************
 
 ## 🚶: Passo a Passo
 
@@ -21,6 +24,8 @@
 
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/blob/main/paint/PDPQ%2010primeiras%20linhas.png?raw=true)
+
+##### ****************************************************************************************************************************************************
 
 ### 2. Construir/Treinar
 
@@ -39,6 +44,7 @@
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/2df11b4e-04ac-4e9d-b8eb-3ddbecc9018f)
 
+##### ****************************************************************************************************************************************************
 
 ### 3. Analisar
 
@@ -46,9 +52,13 @@
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/f80a66f8-d4ca-47c0-8aa2-19713f9ea13e)
 
+##### ****************************************************************************************************************************************************
+
 #### Interpretação das Métricas
 Quanto menor o valor do Avg. wQL, MAPE, WAPE, RMSE e MASE, melhor é o desempenho do modelo, pois indicam menores erros em relação aos dados reais.
 Cada métrica oferece uma perspectiva diferente sobre a precisão do modelo, sendo importante considerar várias métricas para obter uma visão abrangente do desempenho.
+
+##### ****************************************************************************************************************************************************
 
 #### Utilização no SageMaker Canvas
 No SageMaker Canvas, essas métricas são normalmente calculadas automaticamente após o treinamento do modelo. Você pode visualizar essas métricas na interface do Canvas, o que ajuda a entender como o modelo está performando e facilita a comparação entre diferentes configurações de modelos.
@@ -63,6 +73,7 @@ Esta métrica avalia a precisão das previsões em diferentes quantis da distrib
 
 Um quantil é um valor que divide uma distribuição de dados em partes iguais ou em partes com proporções específicas, como medianas, quartis e percentis.
 
+##### ****************************************************************************************************************************************************
 
 ##### Para calcular o Average Weighted Quantile Loss (Avg. wQL), você precisa seguir estes passos:
 
@@ -76,10 +87,13 @@ _ Calcular o Erro Ponderado: Multiplicar os erros de previsão pelos pesos atrib
 
 _ Média dos Erros Ponderados: Calcular a média dos erros ponderados para obter o Avg. wQL.
 
+##### ****************************************************************************************************************************************************
 
 #### MAPE (Mean Absolute Percentage Error):
 
 É a média do erro percentual absoluto, calculado como a média das diferenças absolutas entre os valores previstos e os valores reais, dividido pelos valores reais. É expresso como uma porcentagem.
+
+##### ****************************************************************************************************************************************************
 
 ##### Para calcular o MAPE (Mean Absolute Percentage Error), siga estes passos:
 
@@ -95,11 +109,13 @@ Depois de calcular o APE para cada observação, calcule a média desses valores
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/872fa25e-0341-467a-891e-a0c494bc0fe1)
 
-
+##### ****************************************************************************************************************************************************
 
 #### WAPE (Weighted Absolute Percentage Error):
 
 É uma variação do MAPE que pondera os erros percentuais absolutos pela importância de cada observação. É útil quando há diferentes magnitudes de valores reais e é importante dar mais peso a determinadas observações.
+
+##### ****************************************************************************************************************************************************
 
 ##### Para calcular o WAPE (Weighted Absolute Percentage Error), siga estes passos:
 
@@ -119,10 +135,13 @@ Multiplique o APE de cada observação pelo peso correspondente e calcule a méd
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/0869fa86-122b-4aef-807f-f0cceb0764f9)
 
+##### ****************************************************************************************************************************************************
 
 #### RMSE (Root Mean Squared Error):
 
 É a raiz quadrada da média dos quadrados dos erros entre valores previstos e reais. É uma medida de dispersão dos erros e fornece uma ideia de quão bem o modelo está ajustando os dados.
+
+##### ****************************************************************************************************************************************************
 
 ##### Para calcular o RMSE (Root Mean Squared Error), siga estes passos:
 
@@ -144,9 +163,13 @@ Finalmente, calcule a raiz quadrada do MSE para obter o RMSE:
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/9042aa63-e9fa-45ec-bd32-379ead44899b)
 
+##### ****************************************************************************************************************************************************
+
 #### MASE (Mean Absolute Scaled Error):
 
 É uma medida de erro escalada, que compara o erro médio absoluto do modelo com o erro médio absoluto de um modelo de referência na mesma série temporal. É útil para avaliar a precisão de modelos em séries temporais.
+
+##### ****************************************************************************************************************************************************
 
 ##### Para calcular o MASE (Mean Absolute Scaled Error), siga estes passos:
 
@@ -172,7 +195,7 @@ Finalmente, calcule o MASE como a razão entre o MAE do modelo e o MAE do modelo
 
   ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/6ca9b72e-85ae-40fe-a9f5-e4c3a037a030)
 
-## -----------------------------------------------------------------------------------------------------------------------------------------------------
+##### ****************************************************************************************************************************************************
 
 ### 4. Prever
 
@@ -180,31 +203,11 @@ Finalmente, calcule o MASE como a razão entre o MAE do modelo e o MAE do modelo
 -   Exporte os resultados e analise as previsões geradas.
 -   Documente suas conclusões e qualquer insight obtido a partir das previsões.
 
+##### ****************************************************************************************************************************************************
+
 ## 🤔 Dúvidas?
 
 Esperamos que esta experiência tenha sido enriquecedora e que você tenha aprendido mais sobre Machine Learning aplicado a problemas reais. Se tiver alguma dúvida, não hesite em abrir uma issue neste repositório ou entrar em contato com a equipe da DIO.
-#-----------------------------------------------------------------------------------------------------------------------------------------------------
-# MINHAS OBSERVAÇÕES:
 
-## Sobre o parâmetro MSE
-Mean Squared Error (MSE) é a média dos quadrados dos erros, onde o erro é a diferença entre os valores observados e os valores previstos.
-
-O MSE é sempre não negativo, e um valor de 0 indica que o modelo está prevendo perfeitamente os valores observados.
-
-Valores Pequenos de MSE: Indicam que os valores previstos estão próximos dos valores reais.
-Valores Grandes de MSE: Sugerem que há grandes diferenças entre os valores previstos e reais.
-
-Como o MSE é a média dos quadrados dos erros, ele amplifica os grandes erros, penalizando fortemente as previsões que estão muito distantes dos valores reais.
-
-## Sobre o parâmetro RMSE
-
-Root Mean Squared Error (RMSE) é uma métrica que mede a precisão das previsões de um modelo. É a raiz quadrada da média dos quadrados das diferenças entre os valores previstos e os valores reais. Quanto menor o RMSE, mais preciso é o modelo.
-
-Como o RMSE é a raiz quadrada do MSE, ele tem a mesma unidade dos valores previstos, tornando-o mais interpretável em termos das unidades dos dados.
-
-Valores Pequenos de RMSE: Indicam que o modelo tem um desempenho bom em prever os valores observados.
-Valores Grandes de RMSE: Sugerem que o modelo tem dificuldades em capturar as variações nos dados.
-
-Ele também amplifica os grandes erros, mas como ele é uma raiz quadrada, a amplificação é menos severa do que no MSE.
-
+##### ****************************************************************************************************************************************************
 
