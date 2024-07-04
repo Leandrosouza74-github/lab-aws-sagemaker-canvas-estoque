@@ -38,7 +38,12 @@
 
 ### 3. Analisar
 
--   Após o treinamento, examine as métricas de performance do modelo.
+-   Após o treinamento, as seguintes métricas de performance do modelo foram:
+
+
+![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/blob/main/paint/PDPQ%20m%C3%A9tricas.png?raw=true)
+
+
 -   Verifique as principais características que influenciam as previsões.
 -   Faça ajustes no modelo se necessário e re-treine até obter um desempenho satisfatório.
 
