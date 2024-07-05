@@ -220,7 +220,8 @@ Finalmente, calcule o MASE como a razão entre o MAE do modelo e o MAE do modelo
 
 ### 🔥: 4. Prever
 
--   O modelo treinado com os dados de vários produtos contidos na planilha, foi utilizado para fazer previsões de estoque em produtos específicos.
+<span style="color: blue;">O modelo foi treinado com os dados de vários produtos contidos na planilha e foi utilizado para fazer previsões de estoque em produtos específicos.</span>
+  
 -   Resultado:
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/e091edf3-9817-49cf-a508-426a74c6dce2)
