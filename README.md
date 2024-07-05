@@ -254,13 +254,72 @@ P90 (Percentil 90): Indica que 90% das previsões de estoque são iguais ou meno
 
 ##### ****************************************************************************************************************************************************
 
--   Documente suas conclusões e qualquer insight obtido a partir das previsões.
+## Conclusão com aplicação prática:
+
+### Exemplo Prático:
+Suponha que você gerencie uma quitanda e utiliza um modelo de previsão para estimar o estoque desses produtos com base em dados históricos de vendas e sazonalidade.
 
 ##### ****************************************************************************************************************************************************
 
-## 🤔 Dúvidas?
-
-Esperamos que esta experiência tenha sido enriquecedora e que você tenha aprendido mais sobre Machine Learning aplicado a problemas reais. Se tiver alguma dúvida, não hesite em abrir uma issue neste repositório ou entrar em contato com a equipe da DIO.
+Dados de Exemplo:
 
 ##### ****************************************************************************************************************************************************
+
+Limão:
+
+P10: 50 unidades
+P50 (Mediana): 100 unidades
+P90: 150 unidades
+
+##### ****************************************************************************************************************************************************
+
+Abacaxi:
+
+P10: 20 unidades
+P50 (Mediana): 40 unidades
+P90: 60 unidades
+Laranja:
+
+##### ****************************************************************************************************************************************************
+
+P10: 30 unidades
+P50 (Mediana): 60 unidades
+P90: 90 unidades
+
+##### ****************************************************************************************************************************************************
+
+### Aplicações Práticas:
+
+##### ****************************************************************************************************************************************************
+
+#### Planejamento de Compras:
+
+Com base nos percentis, você pode planejar as compras de cada produto de acordo com o nível de estoque desejado e o risco de escassez. Por exemplo, para limões, garantir que sempre haja pelo menos 50 unidades (P10) pode ser uma estratégia conservadora para evitar falta de estoque.
+
+##### ****************************************************************************************************************************************************
+
+#### Gestão de Sazonalidade:
+
+Durante períodos de alta sazonalidade, como no verão quando a demanda por limões e laranjas aumenta, você pode aumentar o estoque alvo para os percentis mais altos (P90), garantindo que haja um buffer suficiente para atender à demanda esperada.
+
+##### ****************************************************************************************************************************************************
+
+#### Decisões de Produção e Estoque:
+
+Os percentis podem orientar decisões sobre produção e armazenamento. Por exemplo, se o P50 para abacaxis indica 40 unidades, você pode ajustar a produção para manter esse nível de estoque sem excesso de produtos perecíveis.
+
+##### ****************************************************************************************************************************************************
+
+#### Previsão de Vendas:
+
+Os percentis também ajudam na previsão de vendas futuras, permitindo ajustes dinâmicos no estoque com base em cenários de demanda esperada.
+
+##### ****************************************************************************************************************************************************
+
+#### Conclusão final:
+
+Os percentis P10, P50 e P90 são ferramentas poderosas para a gestão eficaz de estoque em uma quitanda ou qualquer negócio que lide com produtos perecíveis ou sazonais. Eles fornecem insights sobre a variabilidade das previsões de estoque e ajudam na tomada de decisões para garantir um equilíbrio entre oferta e demanda, minimizando o risco de excesso ou falta de estoque.
+
+##### ****************************************************************************************************************************************************
+
 
