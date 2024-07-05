@@ -224,6 +224,10 @@ Finalmente, calcule o MASE como a razão entre o MAE do modelo e o MAE do modelo
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/e091edf3-9817-49cf-a508-426a74c6dce2)
 
+##### ****************************************************************************************************************************************************
+
+![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/39dfcb2e-d1e3-4dd6-b91f-6b8b36c017f6)
+
 
 ##### ****************************************************************************************************************************************************
 
