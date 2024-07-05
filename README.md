@@ -13,7 +13,7 @@
 
 ## 🚶: Passo a Passo
 
-### 1. Selecionar Dataset 
+### 🖋️:1. Selecionar Dataset 
 
 -   Escolhido o datasets na pasta `datasets` deste repositório.
 ##### ****************************************************************************************************************************************************
@@ -38,7 +38,7 @@ Dataset--> [Produto,Data,Preço e Quantidade (PDPQ)](datasets/dataset-1000-com-p
 
 ##### ****************************************************************************************************************************************************
 
-### 2. Construir/Treinar
+### 🏚️: 2. Construir/Treinar
 
 -   Configuração das variáveis de entrada e saída de acordo com os dados.
 
@@ -64,7 +64,7 @@ Dataset--> [Produto,Data,Preço e Quantidade (PDPQ)](datasets/dataset-1000-com-p
 
 ##### ****************************************************************************************************************************************************
 
-### 3. Analisar
+### 🧠: 3. Analisar
 
 -   Após o treinamento, as métricas de performance do modelo foram as seguintes:
 
@@ -74,18 +74,18 @@ Dataset--> [Produto,Data,Preço e Quantidade (PDPQ)](datasets/dataset-1000-com-p
 
 ##### ****************************************************************************************************************************************************
 
-#### Interpretação das Métricas
+#### 🔥: Interpretação das Métricas
 Quanto menor o valor do Avg. wQL, MAPE, WAPE, RMSE e MASE, melhor é o desempenho do modelo, pois indicam menores erros em relação aos dados reais.
 Cada métrica oferece uma perspectiva diferente sobre a precisão do modelo, sendo importante considerar várias métricas para obter uma visão abrangente do desempenho.
 
 ##### ****************************************************************************************************************************************************
 
-#### Utilização no SageMaker Canvas
+#### 🎨: Utilização no SageMaker Canvas
 No SageMaker Canvas, essas métricas são normalmente calculadas automaticamente após o treinamento do modelo. Você pode visualizar essas métricas na interface do Canvas, o que ajuda a entender como o modelo está performando e facilita a comparação entre diferentes configurações de modelos.
 
 ##### ****************************************************************************************************************************************************
 
-### Vamos explanar um pouco mais sobre cada métrica:
+### 🚙: Vamos explanar um pouco mais sobre cada métrica:
 
 #### Avg. wQL (Average Weighted Quantile Loss):
 
