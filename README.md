@@ -5,6 +5,12 @@
 
 ## 🥅: Objetivos Deste Desafio de Projeto
 
+Desenvolver habilidades e aplicar conhecimentos práticos na área de previsão de estoque e preço de produtos utilizando o AWS SageMaker Canvas.
+
+##### ****************************************************************************************************************************************************
+
+Etapas envolvidas:
+
 ##### ****************************************************************************************************************************************************
 
 ![Imagem](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/blob/main/paint/339880256-72f5c21f-5562-491e-aa42-2885a3184650.png?raw=true)
