@@ -222,7 +222,8 @@ Finalmente, calcule o MASE como a razão entre o MAE do modelo e o MAE do modelo
 
 -   O modelo treinado foi utilizado para fazer previsões de estoque e esse foi o resultado:
 
-![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/9ea41861-dd10-4788-9792-20046df85090)
+![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/e091edf3-9817-49cf-a508-426a74c6dce2)
+
 
 ##### ****************************************************************************************************************************************************
 
