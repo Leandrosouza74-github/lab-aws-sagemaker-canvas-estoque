@@ -218,7 +218,7 @@ Finalmente, calcule o MASE como a razão entre o MAE do modelo e o MAE do modelo
 
 ##### ****************************************************************************************************************************************************
 
-### 4. Prever
+### 🔥: 4. Prever
 
 -   Use o modelo treinado para fazer previsões de estoque.
 -   Exporte os resultados e analise as previsões geradas.
