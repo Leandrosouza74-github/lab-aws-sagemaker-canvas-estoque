@@ -233,7 +233,27 @@ O modelo foi treinado com os dados de vários produtos contidos na planilha e fo
 
 ##### ****************************************************************************************************************************************************
 
--   Exporte os resultados e analise as previsões geradas.
+### Resultados:
+Como dito anteriormente, o modelo foi treinado com os dados de vários produtos contidos na planilha e foi utilizado para fazer previsões de estoque em produtos específicos. alem disso o modelo do SageMaker Canvas trouxe como resultado os parametros p10 p50 p90 que comentarei na sequência. 
+
+##### ****************************************************************************************************************************************************
+
+#### P10, P50 e P90 :
+
+##### ****************************************************************************************************************************************************
+
+P10 (Percentil 10): Indica que 10% das previsões de estoque são iguais ou menores que esse valor. Em outras palavras, é o valor abaixo do qual está o 10º percentil das previsões de estoque. Pode ser interpretado como uma estimativa conservadora ou pessimista para o estoque.
+
+##### ****************************************************************************************************************************************************
+
+P50 (Percentil 50 ou Mediana): Representa o valor no qual metade das previsões de estoque são menores e metade são maiores. É uma medida de tendência central e indica o valor central das previsões de estoque.
+
+##### ****************************************************************************************************************************************************
+
+P90 (Percentil 90): Indica que 90% das previsões de estoque são iguais ou menores que esse valor. É uma estimativa que captura um nível mais otimista ou expansivo para o estoque.
+
+##### ****************************************************************************************************************************************************
+
 -   Documente suas conclusões e qualquer insight obtido a partir das previsões.
 
 ##### ****************************************************************************************************************************************************
