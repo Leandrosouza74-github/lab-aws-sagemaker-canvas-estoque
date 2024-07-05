@@ -3,95 +3,95 @@
 
 ##### By Leandro Souza
 
-##### ****************************************************************************************************************************************************
+##### *********************************************************************************************************
 
 ## 🥅: Objetivos Deste Desafio de Projeto
 
 Desenvolver habilidades e aplicar conhecimentos práticos na área de previsão de estoque de produtos utilizando o AWS SageMaker Canvas.
 
-##### ****************************************************************************************************************************************************
+##### ********************************************************************************************************
 
 Etapas envolvidas:
 
-##### ****************************************************************************************************************************************************
+##### *******************************************************************************************************
 
 ![Imagem](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/blob/main/paint/339880256-72f5c21f-5562-491e-aa42-2885a3184650.png?raw=true)
 
-##### ****************************************************************************************************************************************************
+##### *********************************************************************************************************
 
 ## 🚶: Passo a Passo
 
 ### 🖋️:1. Selecionar Dataset 
 
 -   Escolhido o datasets na pasta `datasets` deste repositório.
-##### ****************************************************************************************************************************************************
+##### *********************************************************************************************************
 
 Dataset--> [Produto,Data,Preço e Quantidade (PDPQ)](datasets/dataset-1000-com-preco-variavel-e-renovacao-estoque.csv)
 
-##### ****************************************************************************************************************************************************
+##### **********************************************************************************************************
 
 -   Upload do dataset foi feito com sucesso no SageMaker Canvas.
 
-##### ****************************************************************************************************************************************************
+##### **********************************************************************************************************
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/blob/main/paint/PDPQ.png?raw=true)
 
-##### ****************************************************************************************************************************************************
+##### ********************************************************************************************************
     
 -   Visualização das 10 primeiras linhas do arquivo.
 
-##### ****************************************************************************************************************************************************
+##### ********************************************************************************************************
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/blob/main/paint/PDPQ%2010primeiras%20linhas.png?raw=true)
 
-##### ****************************************************************************************************************************************************
+##### **********************************************************************************************************
 
 ### 🏚️: 2. Construir/Treinar
 
 -   Configuração das variáveis de entrada e saída de acordo com os dados.
 
-##### ****************************************************************************************************************************************************
+##### **********************************************************************************************************
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/6b187c9e-80b4-4498-a281-6426f503f8ad)
 
-##### ****************************************************************************************************************************************************
+##### *********************************************************************************************************
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/73d678b5-bbf9-4e95-930e-4d2ad0be978a)
 
-##### ****************************************************************************************************************************************************
+##### ***********************************************************************************************************
 
 -   Início do treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset.
 
-##### ****************************************************************************************************************************************************
+##### *********************************************************************************************************
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/3a599a6d-7a65-4a36-a622-4839fe3b9dfa)
 
-##### ****************************************************************************************************************************************************
+##### *********************************************************************************************************
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/2df11b4e-04ac-4e9d-b8eb-3ddbecc9018f)
 
-##### ****************************************************************************************************************************************************
+##### **********************************************************************************************************
 
 ### 🧠: 3. Analisar
 
 -   Após o treinamento, as métricas de performance do modelo foram as seguintes:
 
-##### ****************************************************************************************************************************************************
+##### ********************************************************************************************************
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/f6faf5a0-4d16-414f-8afe-7cf0c6021c85)
 
-##### ****************************************************************************************************************************************************
+##### *******************************************************************************************************
 
 #### 🔥: Interpretação das Métricas
 Quanto menor o valor do Avg. wQL, MAPE, WAPE, RMSE e MASE, melhor é o desempenho do modelo, pois indicam menores erros em relação aos dados reais.
 Cada métrica oferece uma perspectiva diferente sobre a precisão do modelo, sendo importante considerar várias métricas para obter uma visão abrangente do desempenho.
 
-##### ****************************************************************************************************************************************************
+##### ****************************************************************************************************
 
 #### 🎨: Utilização no SageMaker Canvas
 No SageMaker Canvas, essas métricas são normalmente calculadas automaticamente após o treinamento do modelo. Você pode visualizar essas métricas na interface do Canvas, o que ajuda a entender como o modelo está performando e facilita a comparação entre diferentes configurações de modelos.
 
-##### ****************************************************************************************************************************************************
+##### *****************************************************************************************************
 
 ### 🚙: Vamos explanar um pouco mais sobre cada métrica:
 
@@ -101,7 +101,7 @@ Esta métrica avalia a precisão das previsões em diferentes quantis da distrib
 
 Um quantil é um valor que divide uma distribuição de dados em partes iguais ou em partes com proporções específicas, como medianas, quartis e percentis.
 
-##### ****************************************************************************************************************************************************
+##### *****************************************************************************************************
 
 ##### Para calcular o Average Weighted Quantile Loss (Avg. wQL), você precisa seguir estes passos:
 
@@ -115,13 +115,13 @@ _ Calcular o Erro Ponderado: Multiplicar os erros de previsão pelos pesos atrib
 
 _ Média dos Erros Ponderados: Calcular a média dos erros ponderados para obter o Avg. wQL.
 
-##### ****************************************************************************************************************************************************
+##### ******************************************************************************************************
 
 #### MAPE (Mean Absolute Percentage Error):
 
 É a média do erro percentual absoluto, calculado como a média das diferenças absolutas entre os valores previstos e os valores reais, dividido pelos valores reais. É expresso como uma porcentagem.
 
-##### ****************************************************************************************************************************************************
+##### ************************************************************************************************
 
 ##### Para calcular o MAPE (Mean Absolute Percentage Error), siga estes passos:
 
@@ -137,13 +137,13 @@ Depois de calcular o APE para cada observação, calcule a média desses valores
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/872fa25e-0341-467a-891e-a0c494bc0fe1)
 
-##### ****************************************************************************************************************************************************
+##### *************************************************************************************************
 
 #### WAPE (Weighted Absolute Percentage Error):
 
 É uma variação do MAPE que pondera os erros percentuais absolutos pela importância de cada observação. É útil quando há diferentes magnitudes de valores reais e é importante dar mais peso a determinadas observações.
 
-##### ****************************************************************************************************************************************************
+##### *************************************************************************************************
 
 ##### Para calcular o WAPE (Weighted Absolute Percentage Error), siga estes passos:
 
@@ -163,13 +163,13 @@ Multiplique o APE de cada observação pelo peso correspondente e calcule a méd
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/0869fa86-122b-4aef-807f-f0cceb0764f9)
 
-##### ****************************************************************************************************************************************************
+##### *******************************************************************************************
 
 #### RMSE (Root Mean Squared Error):
 
 É a raiz quadrada da média dos quadrados dos erros entre valores previstos e reais. É uma medida de dispersão dos erros e fornece uma ideia de quão bem o modelo está ajustando os dados.
 
-##### ****************************************************************************************************************************************************
+##### *******************************************************************************************
 
 ##### Para calcular o RMSE (Root Mean Squared Error), siga estes passos:
 
@@ -191,13 +191,13 @@ Finalmente, calcule a raiz quadrada do MSE para obter o RMSE:
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/9042aa63-e9fa-45ec-bd32-379ead44899b)
 
-##### ****************************************************************************************************************************************************
+##### ***********************************************************************************************
 
 #### MASE (Mean Absolute Scaled Error):
 
 É uma medida de erro escalada, que compara o erro médio absoluto do modelo com o erro médio absoluto de um modelo de referência na mesma série temporal. É útil para avaliar a precisão de modelos em séries temporais.
 
-##### ****************************************************************************************************************************************************
+##### *********************************************************************************************
 
 ##### Para calcular o MASE (Mean Absolute Scaled Error), siga estes passos:
 
@@ -217,14 +217,14 @@ Finalmente, calcule o MASE como a razão entre o MAE do modelo e o MAE do modelo
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/ab00fc87-a724-4ead-9ed5-198b3dbbcd7f)
 
-##### ****************************************************************************************************************************************************
+##### *******************************************************************************************
 
 ####   A principal característica que influenciou a previsão do estoque foi a do preço:
 
  ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/d0ee6bb3-4367-47ae-a69d-7d75c2bd3029)
 
 
-##### ****************************************************************************************************************************************************
+##### ****************************************************************************************
 
 ### 🔥: 4. Prever
 
@@ -233,44 +233,44 @@ O modelo foi treinado com os dados de vários produtos contidos na planilha e fo
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/e091edf3-9817-49cf-a508-426a74c6dce2)
 
-##### ****************************************************************************************************************************************************
+##### ******************************************************************************************
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/39dfcb2e-d1e3-4dd6-b91f-6b8b36c017f6)
 
 
-##### ****************************************************************************************************************************************************
+##### ******************************************************************************************
 
 ### Resultados:
 Como dito anteriormente, o modelo foi treinado com os dados de vários produtos contidos na planilha e foi utilizado para fazer previsões de estoque em produtos específicos e além disso, o modelo do SageMaker Canvas trouxe como resultado os parametros "p10, p50 e p90" que será comentado na sequência deste relatório. 
 
-##### ****************************************************************************************************************************************************
+##### **************************************************************************************
 
 #### P10, P50 e P90 :
 
-##### ****************************************************************************************************************************************************
+##### ********************************************************************************************
 
 P10 (Percentil 10): Indica que 10% das previsões de estoque são iguais ou menores que esse valor. Em outras palavras, é o valor abaixo do qual está o 10º percentil das previsões de estoque. Pode ser interpretado como uma estimativa conservadora ou pessimista para o estoque.
 
-##### ****************************************************************************************************************************************************
+##### ******************************************************************************************
 
 P50 (Percentil 50 ou Mediana): Representa o valor no qual metade das previsões de estoque são menores e metade são maiores. É uma medida de tendência central e indica o valor central das previsões de estoque.
 
-##### ****************************************************************************************************************************************************
+##### *******************************************************************************************
 
 P90 (Percentil 90): Indica que 90% das previsões de estoque são iguais ou menores que esse valor. É uma estimativa que captura um nível mais otimista ou expansivo para o estoque.
 
-##### ****************************************************************************************************************************************************
+##### *******************************************************************************************
 
 ## Conclusão com aplicação prática:
 
 ### Exemplo Prático:
 Suponha que você gerencie uma quitanda e utiliza um modelo de previsão para estimar o estoque desses produtos com base em dados históricos de vendas e sazonalidade.
 
-##### ****************************************************************************************************************************************************
+##### *************************************************************************************
 
 Dados de Exemplo:
 
-##### ****************************************************************************************************************************************************
+##### **************************************************************************************
 
 Limão:
 
@@ -278,7 +278,7 @@ P10: 50 unidades
 P50 (Mediana): 100 unidades
 P90: 150 unidades
 
-##### ****************************************************************************************************************************************************
+##### *************************************************************************************
 
 Abacaxi:
 
@@ -286,7 +286,7 @@ P10: 20 unidades
 P50 (Mediana): 40 unidades
 P90: 60 unidades
 
-##### ****************************************************************************************************************************************************
+##### ***********************************************************************************
 
 Laranja:
 
@@ -294,35 +294,35 @@ P10: 30 unidades
 P50 (Mediana): 60 unidades
 P90: 90 unidades
 
-##### ****************************************************************************************************************************************************
+##### **************************************************************************************
 
 ### Aplicações Práticas:
 
-##### ****************************************************************************************************************************************************
+##### **************************************************************************************
 
 #### Planejamento de Compras:
 
 Com base nos percentis, você pode planejar as compras de cada produto de acordo com o nível de estoque desejado e o risco de escassez. Por exemplo, para limões, garantir que sempre haja pelo menos 50 unidades (P10) pode ser uma estratégia conservadora para evitar falta de estoque.
 
-##### ****************************************************************************************************************************************************
+##### *************************************************************************************
 
 #### Gestão de Sazonalidade:
 
 Durante períodos de alta sazonalidade, como no verão quando a demanda por limões e laranjas aumenta, você pode aumentar o estoque alvo para os percentis mais altos (P90), garantindo que haja um buffer suficiente para atender à demanda esperada.
 
-##### ****************************************************************************************************************************************************
+##### ***************************************************************************************
 
 #### Decisões de Produção e Estoque:
 
 Os percentis podem orientar decisões sobre produção e armazenamento. Por exemplo, se o P50 para abacaxis indica 40 unidades, você pode ajustar a produção para manter esse nível de estoque sem excesso de produtos perecíveis.
 
-##### ****************************************************************************************************************************************************
+##### *************************************************************************************
 
 #### Previsão de Vendas:
 
 Os percentis também ajudam na previsão de vendas futuras, permitindo ajustes dinâmicos no estoque com base em cenários de demanda esperada.
 
-##### ****************************************************************************************************************************************************
+##### ************************************************************************************
 
 #### Conclusão final:
 
