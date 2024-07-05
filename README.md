@@ -321,6 +321,20 @@ Os percentis também ajudam na previsão de vendas futuras, permitindo ajustes d
 
 Os percentis P10, P50 e P90 são ferramentas poderosas para a gestão eficaz de estoque em uma quitanda ou qualquer negócio que lide com produtos perecíveis ou sazonais. Eles fornecem insights sobre a variabilidade das previsões de estoque e ajudam na tomada de decisões para garantir um equilíbrio entre oferta e demanda, minimizando o risco de excesso ou falta de estoque.
 
+Geralmente, quanto maior e mais diversificada for a sua planilha de dados históricos, melhor serão as previsões de um modelo de previsão. Isso ocorre porque um modelo de machine learning pode aprender padrões mais complexos e representativos com uma quantidade maior de dados.
+
+Aqui estão alguns benefícios de ter uma planilha mais extensa e diversificada:
+
+Captura de Variações e Tendências: Com mais dados, o modelo pode capturar melhor as variações e tendências ao longo do tempo, permitindo previsões mais precisas.
+
+Melhor Aprendizado do Modelo: Um modelo treinado com mais dados pode aprender relações mais sutis entre as variáveis (como preço, data e estoque), o que pode levar a previsões mais precisas e robustas.
+
+Redução de Viés e Erro: Uma planilha maior e mais diversa pode ajudar a reduzir o viés e o erro do modelo, pois fornece uma representação mais completa do comportamento dos dados.
+
+Flexibilidade e Generalização: Com uma base de dados mais ampla, o modelo pode generalizar melhor para novos dados e situações, aumentando sua capacidade de fazer previsões precisas em cenários variados.
+
+### Portanto, é vantajoso expandir sua planilha com dados atualizados e repetir os registros existentes ao longo do tempo para melhorar a qualidade das previsões de estoque ou qualquer outro tipo de previsão que você esteja realizando.
+
 ##### ****************************************************************************************************************************************************
 
 
