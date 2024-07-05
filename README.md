@@ -220,7 +220,7 @@ Finalmente, calcule o MASE como a razão entre o MAE do modelo e o MAE do modelo
 
 ### 🔥: 4. Prever
 
-<span style="color: green;">O modelo foi treinado com os dados de vários produtos contidos na planilha e foi utilizado para fazer previsões de estoque em produtos específicos.</span>
+O modelo foi treinado com os dados de vários produtos contidos na planilha e foi utilizado para fazer previsões de estoque em produtos específicos.
   
 -   Resultado:
 
