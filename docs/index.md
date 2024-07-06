@@ -37,7 +37,8 @@ Etapas envolvidas:
 ##### ********************************************************************************
     
 -   Visualização das 10 primeiras linhas do arquivo (Dataset).
-  Como visto , foi feito um arquivo simples no Excel com poucas colunas de dados onde na coluna ID estão cada produto do estoque. Também temos a data, o preço e a quentidade no estoque.
+  
+    Como visto abaixo, foi feito um arquivo simples no Excel com poucas colunas de dados onde na coluna ID estão cada produto do estoque. Também temos a data, o preço e a quantidade no estoque.
 
 ##### ********************************************************************************
 
