@@ -2,7 +2,7 @@
 # 👀: Previsão de Estoque Inteligente
 
 ##### By Leandro Souza 
-######  [Meu Linkedin](www.linkedin.com/in/leandro-souza-silva-75708614)
+###### [Meu Linkedin](https://www.linkedin.com/in/leandro-souza-silva-75708614)
 
 ## Descritivo:
 
