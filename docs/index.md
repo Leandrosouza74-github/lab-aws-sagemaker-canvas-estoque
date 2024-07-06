@@ -242,7 +242,7 @@ O modelo foi treinado com os dados de vários produtos contidos na planilha e fo
 ##### ********************************************************************************
 
 ### 📖: Resultados:
-Como dito anteriormente, o modelo foi treinado com os dados de vários produtos contidos na planilha e foi utilizado para fazer previsões de estoque em produtos específicos e além disso, o modelo do SageMaker Canvas trouxe como resultado os parametros "p10, p50 e p90" que será comentado na sequência deste relatório. 
+Como dito anteriormente, o modelo foi treinado com os dados de vários produtos contidos na planilha e foi utilizado para fazer previsões de estoque em produtos específicos e além disso, o modelo trouxe como resultado os parametros "p10, p50 e p90" que será comentado na sequência deste relatório. 
 
 
 #### P10, P50 e P90 :
