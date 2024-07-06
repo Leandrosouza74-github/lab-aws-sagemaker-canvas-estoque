@@ -43,7 +43,7 @@ Etapas envolvidas:
 -   Visualização das 10 primeiras linhas do arquivo (Dataset).
   
     Como visto abaixo, foi feito um arquivo simples no Excel com poucas colunas de dados onde na coluna ID estão cada produto do estoque. Também temos a data, o preço e a quantidade no estoque.
-    A contrário do que muitos pensam, quanto mais dados e colunas na planilha ou quanto mais se repetir os produtos variando seus dados e/ou quanto mais produtos diferentes mais padrões serão encontrados no treinamento do modelo, resultando maior precisão .
+    A contrário do que muitos pensam, quanto mais dados e colunas na planilha ou quanto mais se repetir os produtos variando seus dados e/ou quanto mais produtos diferentes, mais padrões serão encontrados no treinamento do modelo, resultando maior precisão .
 
 ##### ********************************************************************************
 
