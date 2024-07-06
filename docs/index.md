@@ -10,7 +10,7 @@ Utilizando Inteligência Artificial, mais especificamente técnicas de Machine L
 
 ## 🥅: Objetivos Deste Desafio de Projeto
 
-Desenvolver habilidades e aplicar conhecimentos práticos na área de previsão de estoque de produtos utilizando o AWS.
+Desenvolver habilidades e aplicar conhecimentos práticos na área de previsão de estoque de produtos.
 
 ##### ********************************************************************************
 
