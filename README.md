@@ -5,7 +5,7 @@
 
 ## Descritivo
 
-Utilizando-se da Inteligência Artificial e mais específicamente da Tecnica de Machine Learning, é possível prever o estoque futuro de um produto específico fazendo o uso do cadastro de dados de todos os produtos de um negócio. Isso proporciona uma vantagem competitiva significativa ao permitir uma gestão de estoque mais eficiente e uma melhor capacidade de atender à demanda do mercado de maneira preditiva e precisa.
+Utilizando Inteligência Artificial, mais especificamente técnicas de Machine Learning, é possível prever o estoque futuro de um produto específico ao utilizar dados de todos os produtos de um negócio. Isso proporciona uma vantagem competitiva significativa, permitindo uma gestão de estoque mais eficiente e uma capacidade melhorada de atender à demanda de mercado de forma preditiva e precisa.
 
 ##### ********************************************************************************
 
