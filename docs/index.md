@@ -50,6 +50,8 @@ Etapas envolvidas:
 ### 🏚️: 2. Construir/Treinar
 
 -   Configuração das variáveis de entrada e saída de acordo com os dados.
+  
+    As entradas de dados são cada coluna do Dataset no excel e a saída é a coluna do Estoque.
 
 ##### ********************************************************************************
 
