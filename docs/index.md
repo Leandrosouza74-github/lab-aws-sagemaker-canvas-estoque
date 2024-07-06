@@ -103,11 +103,6 @@ Cada métrica oferece uma perspectiva diferente sobre a precisão do modelo, sen
 
 ##### ********************************************************************************
 
-#### 🎨: Utilização no SageMaker Canvas
-No SageMaker Canvas, essas métricas são normalmente calculadas automaticamente após o treinamento do modelo. Você pode visualizar essas métricas na interface do Canvas, o que ajuda a entender como o modelo está performando e facilita a comparação entre diferentes configurações de modelos.
-
-##### ********************************************************************************
-
 ### 🚙: Vamos explanar um pouco mais sobre cada métrica:
 
 #### Avg. wQL (Average Weighted Quantile Loss):
