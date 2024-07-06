@@ -236,7 +236,7 @@ O modelo foi treinado com os dados de vários produtos contidos na planilha e fo
 
 ##### ********************************************************************************
 
-### Resultados:
+### 📖: Resultados:
 Como dito anteriormente, o modelo foi treinado com os dados de vários produtos contidos na planilha e foi utilizado para fazer previsões de estoque em produtos específicos e além disso, o modelo do SageMaker Canvas trouxe como resultado os parametros "p10, p50 e p90" que será comentado na sequência deste relatório. 
 
 ##### ********************************************************************************
@@ -257,7 +257,7 @@ P90 (Percentil 90): Indica que 90% das previsões de estoque são iguais ou meno
 
 ##### ********************************************************************************
 
-## Conclusão com aplicação prática:
+## ⚒️: Conclusão com aplicação prática:
 
 ### Exemplo Prático:
 Suponha que você gerencie uma quitanda e utiliza um modelo de previsão para estimar o estoque desses produtos com base em dados históricos de vendas e sazonalidade.
@@ -294,7 +294,7 @@ P90: 90 unidades
 ##### ********************************************************************************
 
 
-### Aplicações Práticas:
+### 🥷: Aplicações Práticas:
 
 ##### ********************************************************************************
 
@@ -320,14 +320,14 @@ Os percentis podem orientar decisões sobre produção e armazenamento. Por exem
 ##### ********************************************************************************
 
 
-#### Previsão de Vendas:
+#### 👁️: Previsão de Vendas:
 
 Os percentis também ajudam na previsão de vendas futuras, permitindo ajustes dinâmicos no estoque com base em cenários de demanda esperada.
 
 ##### ********************************************************************************
 
 
-#### Conclusão final:
+#### 🧠: Conclusão final:
 
 Os percentis P10, P50 e P90 são ferramentas poderosas para a gestão eficaz de estoque em uma quitanda ou qualquer negócio que lide com produtos perecíveis ou sazonais. Eles fornecem insights sobre a variabilidade das previsões de estoque e ajudam na tomada de decisões para garantir um equilíbrio entre oferta e demanda, minimizando o risco de excesso ou falta de estoque.
 
