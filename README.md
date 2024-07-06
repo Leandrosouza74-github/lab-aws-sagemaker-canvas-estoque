@@ -1,5 +1,5 @@
 
-# 👀: Previsão de Estoque Inteligente na AWS 
+# 👀: Previsão de Estoque Inteligente (AWS) 
 
 ##### By Leandro Souza
 ## Descritivo:
