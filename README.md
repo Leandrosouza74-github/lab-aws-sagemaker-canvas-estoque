@@ -1,5 +1,5 @@
 
-# 👀: Previsão de Estoque Inteligente (AWS)
+# 👀: Previsão de Estoque Inteligente na AWS com SageMaker Canvas
 
 ##### By Leandro Souza
 
