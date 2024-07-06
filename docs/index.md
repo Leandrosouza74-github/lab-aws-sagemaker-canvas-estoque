@@ -87,6 +87,13 @@ Etapas envolvidas:
 
 ##### ********************************************************************************
 
+-   Observação:
+
+    É importante saber interpretar as métricas de performance, portanto é necessário um conhecimento básico de probabilidade do erro  que qualquer um pode aprender rápido.Pensando nisso deixarei aqui tudo o que se precisa para este caso da previsão do estoque bem matigado.
+
+##### ----------------------------------------------------------------------------------
+
+
 #### 🔥: Interpretação das Métricas
 Quanto menor o valor do Avg. wQL, MAPE, WAPE, RMSE e MASE, melhor é o desempenho do modelo, pois indicam menores erros em relação aos dados reais.
 Cada métrica oferece uma perspectiva diferente sobre a precisão do modelo, sendo importante considerar várias métricas para obter uma visão abrangente do desempenho.
