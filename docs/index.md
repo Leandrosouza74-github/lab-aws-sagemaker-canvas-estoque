@@ -1,5 +1,5 @@
 
-# 👀: Previsão de Estoque Inteligente 
+# 👀: Previsão de Estoque Inteligente
 
 ##### By Leandro Souza 
 ######  www.linkedin.com/in/leandro-souza-silva-75708614
