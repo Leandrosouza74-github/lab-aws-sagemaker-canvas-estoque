@@ -67,6 +67,8 @@ Etapas envolvidas:
 
 -   Início do treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset.
 
+    O treinamento da rede é a etapa seguinte a da construção, é quando a rede, que você construiu de acordo com os dados dos produtos da planilha, vai "pensar" em como achar os padrões de forma mais eficiente possível, nesse ambiente que é o mundo dos dados.
+
 ##### ********************************************************************************
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/3a599a6d-7a65-4a36-a622-4839fe3b9dfa)
