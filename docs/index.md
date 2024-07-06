@@ -2,7 +2,7 @@
 # 👀: Previsão de Estoque Inteligente (AWS) 
 
 ##### By Leandro Souza 
-##########  www.linkedin.com/in/leandro-souza-silva-75708614
+######  www.linkedin.com/in/leandro-souza-silva-75708614
 
 ## Descritivo:
 
