@@ -1,7 +1,9 @@
 
-# 👀: Previsão de Estoque Inteligente na AWS com [SageMaker Canvas](https://aws.amazon.com/pt/sagemaker/canvas/)
+# 👀: Previsão de Estoque Inteligente (AWS) 
 
 ##### By Leandro Souza
+## Descritivo:
+Utilizando a inteligência Artificial e mais específicamente fazendo uso da Técnica de Machine Learning, é possível prever o estoque futuro de um produto específico utilizando uma planilha com dados de todos os produtos existentes de um negócio. Isso proporciona uma vantagem competitiva significativa ao permitir uma gestão de estoque mais eficiente e uma melhor capacidade de atender à demanda do mercado de maneira preditiva e precisa.
 
 ##### ********************************************************************************
 
@@ -22,13 +24,6 @@ Etapas envolvidas:
 ## 🚶: Passo a Passo
 
 ### 🖋️:1. Selecionar Dataset 
-
--   Escolhido o datasets na pasta `datasets` deste repositório.
-##### ********************************************************************************
-
-Dataset--> [Produto,Data,Preço e Quantidade (PDPQ)](datasets/dataset-1000-com-preco-variavel-e-renovacao-estoque.csv)
-
-##### ********************************************************************************
 
 -   Upload do dataset foi feito com sucesso no SageMaker Canvas.
 
@@ -353,7 +348,5 @@ Flexibilidade e Generalização: Com uma base de dados mais ampla, o modelo pode
 
 
 ### Leandro Souza
-
-
 
 
