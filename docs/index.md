@@ -8,21 +8,19 @@
 
 Utilizando Inteligência Artificial, mais especificamente técnicas de Machine Learning, é possível prever o estoque futuro de um produto específico ao utilizar dados de todos os produtos de um negócio. Isso proporciona uma vantagem competitiva significativa, permitindo uma gestão de estoque mais eficiente e uma capacidade melhorada de atender à demanda de mercado de forma preditiva e precisa.
 
-##### ********************************************************************************
+
 
 ## 🥅: Objetivos Deste Desafio de Projeto
 
 Desenvolver habilidades e aplicar conhecimentos práticos na área de previsão de estoque de produtos.
 
-##### ********************************************************************************
 
-Etapas envolvidas:
 
-##### ********************************************************************************
+Segue imagem contendo as etapas envolvidas:
 
 ![Imagem](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/blob/main/paint/339880256-72f5c21f-5562-491e-aa42-2885a3184650.png?raw=true)
 
-##### ********************************************************************************
+
 
 ## 🚶: Passo a Passo
 
@@ -34,22 +32,21 @@ Etapas envolvidas:
 
 -   Abaixo está a imagem do dataset escolhido dentre outros.
 
-##### ********************************************************************************
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/blob/main/paint/PDPQ.png?raw=true)
 
-##### ********************************************************************************
+##### --------------------------------------------------------------------------------------
     
 -   Visualização das 10 primeiras linhas do arquivo (Dataset).
   
     Como visto abaixo, foi feito um arquivo simples no Excel com poucas colunas de dados onde na coluna ID estão cada produto do estoque. Também temos a data, o preço e a quantidade no estoque.
     A contrário do que muitos pensam, quanto mais dados e colunas na planilha ou quanto mais se repetir os produtos variando seus dados e/ou quanto mais produtos diferentes, mais padrões serão encontrados no treinamento do modelo, resultando maior precisão .
 
-##### ********************************************************************************
+
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/blob/main/paint/PDPQ%2010primeiras%20linhas.png?raw=true)
 
-##### ********************************************************************************
+##### --------------------------------------------------------------------------------------
 
 ### 🏚️: 2. Construir/Treinar
 
@@ -57,40 +54,37 @@ Etapas envolvidas:
   
     Na entrada da rede de Inteligência Artificial que estamos construindo colocaremos os dados de cada coluna e na saída da rede sairá a previsão do estoque.
     
-##### ********************************************************************************
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/6b187c9e-80b4-4498-a281-6426f503f8ad)
 
-##### ********************************************************************************
+##### --------------------------------------------------------------------------------------
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/73d678b5-bbf9-4e95-930e-4d2ad0be978a)
 
-##### ********************************************************************************
+##### --------------------------------------------------------------------------------------
 
 -   Início do treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset.
 
     O treinamento da rede é a etapa seguinte a da construção, é quando a rede, que você construiu de acordo com os dados dos produtos da planilha, vai "pensar" em como achar os padrões de forma mais eficiente possível, nesse ambiente que é o mundo dos dados.
     No nosso caso aqui vai levar uns 14 minutos, observando que temos uma planilha com mais de mil produtos diferentes.
 
-##### ********************************************************************************
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/3a599a6d-7a65-4a36-a622-4839fe3b9dfa)
 
-##### ********************************************************************************
+##### --------------------------------------------------------------------------------------
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/2df11b4e-04ac-4e9d-b8eb-3ddbecc9018f)
 
-##### ********************************************************************************
+##### --------------------------------------------------------------------------------------
 
 ### 🧠: 3. Analisar
 
 -   Após o treinamento, as métricas de performance do modelo foram as seguintes:
 
-##### ********************************************************************************
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/f6faf5a0-4d16-414f-8afe-7cf0c6021c85)
 
-##### ********************************************************************************
+##### --------------------------------------------------------------------------------------
 
 -   Observação:
 
