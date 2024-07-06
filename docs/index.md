@@ -92,7 +92,7 @@ Etapas envolvidas:
 
 -   Observação:
 
-    É importante saber interpretar as métricas de performance, portanto é necessário um conhecimento básico de probabilidade do erro  que qualquer um pode aprender rápido.Pensando nisso deixarei aqui tudo o que se precisa para este caso da previsão do estoque bem matigado.
+    É importante saber interpretar as métricas de performance, portanto é necessário um conhecimento básico de probabilidade do erro  que qualquer um pode aprender rápido.Pensando nisso deixarei aqui tudo o que se precisa para este caso da previsão do estoque bem mastigado.
 
 ##### ----------------------------------------------------------------------------------
 
