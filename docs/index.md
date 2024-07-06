@@ -68,6 +68,7 @@ Etapas envolvidas:
 -   Início do treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset.
 
     O treinamento da rede é a etapa seguinte a da construção, é quando a rede, que você construiu de acordo com os dados dos produtos da planilha, vai "pensar" em como achar os padrões de forma mais eficiente possível, nesse ambiente que é o mundo dos dados.
+    No nosso caso aqui vai levar uns 14 minutos, observando que temos uma planilha com mais de mil produtos diferentes.
 
 ##### ********************************************************************************
 
