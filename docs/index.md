@@ -107,7 +107,6 @@ Esta métrica avalia a precisão das previsões em diferentes quantis da distrib
 
 Um quantil é um valor que divide uma distribuição de dados em partes iguais ou em partes com proporções específicas, como medianas, quartis e percentis.
 
-##### ********************************************************************************
 
 ##### Para calcular o Average Weighted Quantile Loss (Avg. wQL), você precisa seguir estes passos:
 
@@ -127,7 +126,6 @@ _ Média dos Erros Ponderados: Calcular a média dos erros ponderados para obter
 
 É a média do erro percentual absoluto, calculado como a média das diferenças absolutas entre os valores previstos e os valores reais, dividido pelos valores reais. É expresso como uma porcentagem.
 
-##### ********************************************************************************
 
 ##### Para calcular o MAPE (Mean Absolute Percentage Error), siga estes passos:
 
@@ -149,7 +147,6 @@ Depois de calcular o APE para cada observação, calcule a média desses valores
 
 É uma variação do MAPE que pondera os erros percentuais absolutos pela importância de cada observação. É útil quando há diferentes magnitudes de valores reais e é importante dar mais peso a determinadas observações.
 
-##### ********************************************************************************
 
 ##### Para calcular o WAPE (Weighted Absolute Percentage Error), siga estes passos:
 
@@ -175,7 +172,6 @@ Multiplique o APE de cada observação pelo peso correspondente e calcule a méd
 
 É a raiz quadrada da média dos quadrados dos erros entre valores previstos e reais. É uma medida de dispersão dos erros e fornece uma ideia de quão bem o modelo está ajustando os dados.
 
-##### ********************************************************************************
 
 ##### Para calcular o RMSE (Root Mean Squared Error), siga estes passos:
 
@@ -203,7 +199,6 @@ Finalmente, calcule a raiz quadrada do MSE para obter o RMSE:
 
 É uma medida de erro escalada, que compara o erro médio absoluto do modelo com o erro médio absoluto de um modelo de referência na mesma série temporal. É útil para avaliar a precisão de modelos em séries temporais.
 
-##### ********************************************************************************
 
 ##### Para calcular o MASE (Mean Absolute Scaled Error), siga estes passos:
 
@@ -239,7 +234,7 @@ O modelo foi treinado com os dados de vários produtos contidos na planilha e fo
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/e091edf3-9817-49cf-a508-426a74c6dce2)
 
-##### ********************************************************************************
+##### --------------------------------------------------------------------------------------
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/39dfcb2e-d1e3-4dd6-b91f-6b8b36c017f6)
 
@@ -249,21 +244,20 @@ O modelo foi treinado com os dados de vários produtos contidos na planilha e fo
 ### 📖: Resultados:
 Como dito anteriormente, o modelo foi treinado com os dados de vários produtos contidos na planilha e foi utilizado para fazer previsões de estoque em produtos específicos e além disso, o modelo do SageMaker Canvas trouxe como resultado os parametros "p10, p50 e p90" que será comentado na sequência deste relatório. 
 
-##### ********************************************************************************
 
 #### P10, P50 e P90 :
 
-##### ********************************************************************************
 
-P10 (Percentil 10): Indica que 10% das previsões de estoque são iguais ou menores que esse valor. Em outras palavras, é o valor abaixo do qual está o 10º percentil das previsões de estoque. Pode ser interpretado como uma estimativa conservadora ou pessimista para o estoque.
+##### P10 (Percentil 10): 
+Indica que 10% das previsões de estoque são iguais ou menores que esse valor. Em outras palavras, é o valor abaixo do qual está o 10º percentil das previsões de estoque. Pode ser interpretado como uma estimativa conservadora ou pessimista para o estoque.
 
-##### ********************************************************************************
 
-P50 (Percentil 50 ou Mediana): Representa o valor no qual metade das previsões de estoque são menores e metade são maiores. É uma medida de tendência central e indica o valor central das previsões de estoque.
+##### P50 (Percentil 50 ou Mediana): 
+Representa o valor no qual metade das previsões de estoque são menores e metade são maiores. É uma medida de tendência central e indica o valor central das previsões de estoque.
 
-##### ********************************************************************************
 
-P90 (Percentil 90): Indica que 90% das previsões de estoque são iguais ou menores que esse valor. É uma estimativa que captura um nível mais otimista ou expansivo para o estoque.
+##### P90 (Percentil 90): 
+Indica que 90% das previsões de estoque são iguais ou menores que esse valor. É uma estimativa que captura um nível mais otimista ou expansivo para o estoque.
 
 ##### ********************************************************************************
 
@@ -272,69 +266,68 @@ P90 (Percentil 90): Indica que 90% das previsões de estoque são iguais ou meno
 ### Exemplo Prático:
 Suponha que você gerencie uma quitanda e utiliza um modelo de previsão para estimar o estoque desses produtos com base em dados históricos de vendas e sazonalidade.
 
-##### ********************************************************************************
 
-Dados de Exemplo:
+#### Dados de Exemplo:
 
-##### ********************************************************************************
 
-Limão:
+##### Limão:
 
 P10: 50 unidades
+
 P50 (Mediana): 100 unidades
+
 P90: 150 unidades
 
-##### ********************************************************************************
+##### --------------------------------------------------------------------------------------
 
-Abacaxi:
+##### Abacaxi:
 
 P10: 20 unidades
+
 P50 (Mediana): 40 unidades
+
 P90: 60 unidades
 
-##### ********************************************************************************
+##### --------------------------------------------------------------------------------------
 
 
-Laranja:
+##### Laranja:
 
 P10: 30 unidades
+
 P50 (Mediana): 60 unidades
+
 P90: 90 unidades
 
-##### ********************************************************************************
+##### --------------------------------------------------------------------------------------
 
 
-### 🥷: Aplicações Práticas:
-
-##### ********************************************************************************
-
+### Aplicações Práticas:
 
 #### Planejamento de Compras:
 
 Com base nos percentis, você pode planejar as compras de cada produto de acordo com o nível de estoque desejado e o risco de escassez. Por exemplo, para limões, garantir que sempre haja pelo menos 50 unidades (P10) pode ser uma estratégia conservadora para evitar falta de estoque.
 
-##### ********************************************************************************
 
 
 #### Gestão de Sazonalidade:
 
 Durante períodos de alta sazonalidade, como no verão quando a demanda por limões e laranjas aumenta, você pode aumentar o estoque alvo para os percentis mais altos (P90), garantindo que haja um buffer suficiente para atender à demanda esperada.
 
-##### ********************************************************************************
 
 
 #### Decisões de Produção e Estoque:
 
 Os percentis podem orientar decisões sobre produção e armazenamento. Por exemplo, se o P50 para abacaxis indica 40 unidades, você pode ajustar a produção para manter esse nível de estoque sem excesso de produtos perecíveis.
 
-##### ********************************************************************************
+##### --------------------------------------------------------------------------------------
 
 
 #### 👁️: Previsão de Vendas:
 
 Os percentis também ajudam na previsão de vendas futuras, permitindo ajustes dinâmicos no estoque com base em cenários de demanda esperada.
 
-##### ********************************************************************************
+##### --------------------------------------------------------------------------------------
 
 
 #### 🧠: Conclusão final:
