@@ -3,7 +3,7 @@
 
 ##### By Leandro Souza
 ## Descritivo:
-Utilizando a inteligência Artificial e mais específicamente fazendo uso da Técnica de Machine Mearning, é possível prever o estoque futuro de um produto específico utilizando uma planilha com dados de todos os produtos existentes de um negócio. Isso proporciona uma vantagem competitiva significativa ao permitir uma gestão de estoque mais eficiente e uma melhor capacidade de atender à demanda do mercado de maneira preditiva e precisa.
+Utilizando a inteligência Artificial e mais específicamente fazendo uso da Técnica de Machine Learning, é possível prever o estoque futuro de um produto específico utilizando uma planilha com dados de todos os produtos existentes de um negócio. Isso proporciona uma vantagem competitiva significativa ao permitir uma gestão de estoque mais eficiente e uma melhor capacidade de atender à demanda do mercado de maneira preditiva e precisa.
 
 ##### ********************************************************************************
 
