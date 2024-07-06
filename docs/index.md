@@ -107,7 +107,7 @@ Cada métrica oferece uma perspectiva diferente sobre a precisão do modelo, sen
 
 ### 🚙: Vamos explanar um pouco mais sobre cada métrica:
 
-#### Avg. wQL (Average Weighted Quantile Loss):
+#### ----------------------------------------Avg. wQL (Average Weighted Quantile Loss):
 
 Esta métrica avalia a precisão das previsões em diferentes quantis da distribuição dos dados. É uma medida de erro que leva em consideração a distribuição dos erros em várias partes dos dados.
 
@@ -129,7 +129,7 @@ _ Média dos Erros Ponderados: Calcular a média dos erros ponderados para obter
 
 ##### ********************************************************************************
 
-#### MAPE (Mean Absolute Percentage Error):
+#### ------------------------------------------MAPE (Mean Absolute Percentage Error):
 
 É a média do erro percentual absoluto, calculado como a média das diferenças absolutas entre os valores previstos e os valores reais, dividido pelos valores reais. É expresso como uma porcentagem.
 
@@ -151,7 +151,7 @@ Depois de calcular o APE para cada observação, calcule a média desses valores
 
 ##### ********************************************************************************
 
-#### WAPE (Weighted Absolute Percentage Error):
+#### ---------------------------------------WAPE (Weighted Absolute Percentage Error):
 
 É uma variação do MAPE que pondera os erros percentuais absolutos pela importância de cada observação. É útil quando há diferentes magnitudes de valores reais e é importante dar mais peso a determinadas observações.
 
@@ -177,7 +177,7 @@ Multiplique o APE de cada observação pelo peso correspondente e calcule a méd
 
 ##### ********************************************************************************
 
-#### RMSE (Root Mean Squared Error):
+#### --------------------------------------------RMSE (Root Mean Squared Error):
 
 É a raiz quadrada da média dos quadrados dos erros entre valores previstos e reais. É uma medida de dispersão dos erros e fornece uma ideia de quão bem o modelo está ajustando os dados.
 
@@ -205,7 +205,7 @@ Finalmente, calcule a raiz quadrada do MSE para obter o RMSE:
 
 ##### ********************************************************************************
 
-#### MASE (Mean Absolute Scaled Error):
+#### ----------------------------------------MASE (Mean Absolute Scaled Error):
 
 É uma medida de erro escalada, que compara o erro médio absoluto do modelo com o erro médio absoluto de um modelo de referência na mesma série temporal. É útil para avaliar a precisão de modelos em séries temporais.
 
@@ -229,7 +229,7 @@ Finalmente, calcule o MASE como a razão entre o MAE do modelo e o MAE do modelo
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/ab00fc87-a724-4ead-9ed5-198b3dbbcd7f)
 
-##### ********************************************************************************
+#### ********************************************************************************
 
 ####   A principal característica que influenciou a previsão do estoque foi a do preço:
 
