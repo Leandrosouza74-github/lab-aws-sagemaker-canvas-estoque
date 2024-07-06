@@ -352,6 +352,6 @@ Flexibilidade e Generalização: Com uma base de dados mais ampla, o modelo pode
 
 
 ### Leandro Souza
-######  www.linkedin.com/in/leandro-souza-silva-75708614
+Engenheiro Telecom/RF/ & IA/ML
 
 
