@@ -27,8 +27,10 @@ Etapas envolvidas:
 ### 🖋️:1. Selecionar Dataset 
 
 -   O Dataset é o nome dado para a planilha de estoque de produtos do seu negócio. Geralmente feita no Excel.
+  
   Apenas esse dataset será utilizado para a construção do modelo de IA Machine Learning, logo após a conclusão, será treinado e colocado para realizar as previsões.
--   Imagem do dataset escolhido dentre outros.
+
+-   Abaixo está a imagem do dataset escolhido dentre outros.
 
 ##### ********************************************************************************
 
