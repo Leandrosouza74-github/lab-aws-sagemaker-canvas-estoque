@@ -53,8 +53,8 @@ Etapas envolvidas:
 
 -   Configuração das variáveis de entrada e saída de acordo com os dados.
   
-    As entradas de dados são cada coluna do Dataset no excel e a saída é a coluna do Estoque.
-
+    Na entrada da rede de Inteligência Artificial que estamos construindo colocaremos os dados de cada coluna e na saída da rede sairá a previsão do estoque.
+    
 ##### ********************************************************************************
 
 ![image](https://github.com/Leandrosouza74-github/lab-aws-sagemaker-canvas-estoque/assets/173939321/6b187c9e-80b4-4498-a281-6426f503f8ad)
